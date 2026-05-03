@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "apples",
+	"version": "${version}",
+	"name": "Apples",
+	"description": "Apple mod!",
+	"authors": [
+		"Yuelqnn"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/apples/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.yuelqnn.apples.Apples"
+		],
+		"client": [
+			"net.yuelqnn.apples.ApplesClient"
+		],
+		"fabric-datagen": [
+			"net.yuelqnn.apples.ApplesDataGenerator"
+		]
+	},
+	"mixins": [
+		"apples.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~26.1",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
