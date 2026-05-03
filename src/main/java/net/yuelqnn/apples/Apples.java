@@ -11,7 +11,7 @@ public class Apples implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+//
 		LOGGER.info("Initializing apples mod");
 	}
 }
