@@ -1,0 +1,13 @@
+{
+  "item.apples.apple_slice": "Apple Slice",
+  "item.apples.apple_ruby": "Apple Ruby",
+  "item.apples.apple_pie": "Apple Pie",
+
+  "item.apples.apple_sword": "Apple Sword",
+  "item.apples.apple_axe": "Apple Axe",
+  "item.apples.apple_pickaxe": "Apple Pickaxe",
+  "item.apples.apple_hoe": "Apple Hoe",
+  "item.apples.apple_shovel": "Apple Shovel",
+
+  "creativeTab.apples": "Apples"
+}

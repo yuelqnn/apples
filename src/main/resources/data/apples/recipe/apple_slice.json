@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:apple"
+  ],
+  "result": {
+    "id": "apples:apple_slice",
+    "count": 4
+  }
+}
